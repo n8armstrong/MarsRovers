@@ -1,5 +1,5 @@
 /* @flow */
-import {CHANGE_TAB} from '../actions/navigation'
+import { CHANGE_TAB } from '../actions/navigation'
 
 let initialState = {
   activeTab: 'curiosity'

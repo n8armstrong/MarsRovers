@@ -1,5 +1,5 @@
 /* @flow */
-import {bindActionCreators} from 'redux'
+import { bindActionCreators } from 'redux'
 
 export const CHANGE_TAB = 'navigation.changeTab'
 

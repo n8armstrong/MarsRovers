@@ -11,7 +11,7 @@ describe('photosReducer', () => {
     }
 
     expect(
-      photosReducer(stateBefore, {type: PHOTO_REQUEST_STARTED})
+      photosReducer(stateBefore, { type: PHOTO_REQUEST_STARTED })
     ).toEqual(stateAfter)
   })
 })

@@ -1,10 +1,10 @@
 /* @flow */
 
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import asap from 'asap'
 
 import TabBarItem from './TabBarItem'
-import {photosActions} from '../actions'
+import { photosActions } from '../actions'
 
 type Props = {
   selected: boolean,

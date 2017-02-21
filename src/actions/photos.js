@@ -1,8 +1,8 @@
 /* @flow */
-import type {roverTypes} from '../common/nasaApi'
+import type { roverTypes } from '../common/nasaApi'
 
-import {bindActionCreators} from 'redux'
-import {getPhotos} from '../common/nasaApi'
+import { bindActionCreators } from 'redux'
+import { getPhotos } from '../common/nasaApi'
 
 export const PHOTO_REQUEST_STARTED = 'photos.requestStarted'
 export const PHOTO_REQUEST_SUCCESSFUL = 'photos.requestSuccessful'

@@ -1,7 +1,7 @@
 /* @flow */
 
-import React, {Component} from 'react'
-import {TabBarIOS, View, ListView, StyleSheet, Image, ActivityIndicator} from 'react-native'
+import React, { Component } from 'react'
+import { TabBarIOS, View, ListView, StyleSheet, Image, ActivityIndicator } from 'react-native'
 
 type Props = {
   selected: boolean,
@@ -23,7 +23,7 @@ export default class TabBarItem extends Component {
   constructor (props: Props) {
     super(props)
 
-    let ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2})
+    let ds = new ListView.DataSource({ rowHasChanged: (r1, r2) => r1 !== r2 })
     this.state = {
       ds,
       dataSource: ds.cloneWithRows([])
@@ -40,7 +40,7 @@ export default class TabBarItem extends Component {
 
   renderRow (rowData: any) {
     return (
-      <Image source={{uri: rowData.img_src}} style={{width: 400, height: 400}} />
+      <Image source={{ uri: rowData.img_src }} style={{ width: 400, height: 400 }} />
     )
   }
 

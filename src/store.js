@@ -1,6 +1,6 @@
 /* @flow */
 
-import {combineReducers, createStore} from 'redux'
+import { combineReducers, createStore } from 'redux'
 
 import photosReducer from './reducers/photos'
 import navigationReducer from './reducers/navigation'

@@ -1,15 +1,15 @@
 /* @flow */
 
-import React, {Component} from 'react'
-import {TabBarIOS} from 'react-native'
+import React, { Component } from 'react'
+import { TabBarIOS } from 'react-native'
 
-import type {roverTypes} from '../common/nasaApi'
+import type { roverTypes } from '../common/nasaApi'
 
 import Curiosity from './Curiosity'
 import Opportunity from './Opportunity'
 import Spirit from './Spirit'
 
-import {navigationActions} from '../actions'
+import { navigationActions } from '../actions'
 
 type Props = {
   photos: any,
